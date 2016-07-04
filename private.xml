@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<root>
+  <devicevendordef>
+    <vendorname>PERSONAL_MEDIA</vendorname>
+    <vendorid>0x0853</vendorid>
+  </devicevendordef>
+
+  <deviceproductdef>
+    <productname>uTRON_KB</productname>
+    <productid>0x0107</productid>
+  </deviceproductdef>
+
+  <item>
+    <name>For uTRON Keyboard</name>
+    <item>
+      <name>Eisuu to Space</name>
+      <identifier>private.eisuu_to_space</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::JIS_EISUU, KeyCode::SPACE</autogen>
+    </item>
+    <item>
+      <name>Kana to Enter</name>
+      <identifier>private.kana_to_return</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::JIS_KANA, KeyCode::RETURN</autogen>
+    </item>
+    <item>
+      <name>SHIFT_L to CONTROL_L</name>
+      <identifier>private.shift_l_to_control_l</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::SHIFT_L, KeyCode::CONTROL_L</autogen>
+    </item>
+    <item>
+      <name>SHIFT_L to Space</name>
+      <identifier>private.shift_l_to_space</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::SHIFT_L, ModifierFlag::CONTROL_R, KeyCode::SPACE</autogen>
+    </item>
+    <item>
+      <name>SHIFT_R to OPTION_R</name>
+      <identifier>private.shift_r_to_option_r</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::SHIFT_R, KeyCode::OPTION_R</autogen>
+    </item>
+    <item>
+      <name>OPTION_L to CONTROL_L</name>
+      <identifier>private.option_l_to_control_l</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::OPTION_L, KeyCode::CONTROL_L</autogen>
+    </item>
+    <item>
+      <name>CONTROL_L to SHIFT_L</name>
+      <identifier>private.control_l_to_shift_l</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::CONTROL_L, KeyCode::SHIFT_L</autogen>
+    </item>
+    <item>
+      <name>CONTROL_R to Space (when CONTROL_L pressed)</name>
+      <identifier>private.control_r_to_space</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::CONTROL_R, ModifierFlag::CONTROL_L, KeyCode::SPACE, ModifierFlag::CONTROL_L</autogen>
+    </item>
+    <item>
+      <name>SHIFT_R to Space (when CONTROL_L pressed)</name>
+      <identifier>private.shift_r_to_space</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::SHIFT_R, ModifierFlag::CONTROL_L, KeyCode::SPACE, ModifierFlag::CONTROL_L</autogen>
+    </item>
+    <item>
+      <name>COMMAND_R to Space (when CONTROL_L pressed)</name>
+      <identifier>private.command_r_to_space</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::COMMAND_R, ModifierFlag::CONTROL_L, KeyCode::SPACE, ModifierFlag::CONTROL_L</autogen>
+    </item>
+    <item>
+      <name>SHIFT_R to CONTROL_R</name>
+      <identifier>private.shift_r_to_control_r</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::SHIFT_R, KeyCode::CONTROL_R</autogen>
+    </item>
+    <item>
+      <name>Space to SHIFT_L</name>
+      <identifier>private.space_to_shift_l</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::SHIFT_L</autogen>
+    </item>
+    <item>
+      <name>Delete to OPTION_R</name>
+      <identifier>private.delete_to_option_r</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::DELETE, KeyCode::OPTION_R</autogen>
+    </item>
+    <item>
+      <name>Delete to SHIFT_R</name>
+      <identifier>private.delete_to_shift_r</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::DELETE, KeyCode::SHIFT_R</autogen>
+    </item>
+    <item>
+      <name>Tab to Esc</name>
+      <identifier>private.tab_to_esc</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::ESCAPE</autogen>
+    </item>
+    <item>
+      <name>Return to Delete</name>
+      <identifier>private.return_to_delete</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::RETURN, KeyCode::DELETE</autogen>
+    </item>
+    <item>
+      <name>Forward Delete to Tab</name>
+      <identifier>private.forward_delete_to_tab</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::FORWARD_DELETE, KeyCode::TAB</autogen>
+    </item>
+    <item>
+      <name>Forward Delete to Esc</name>
+      <identifier>private.forward_delete_to_esc</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::FORWARD_DELETE, KeyCode::ESCAPE</autogen>
+    </item>
+    <item>
+      <name>Yen to Backslash</name>
+      <identifier>private.yen_to_backslash</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::JIS_YEN, KeyCode::BACKSLASH</autogen>
+    </item>
+    <item>
+      <name>Yen to Backquote</name>
+      <identifier>private.yen_to_backquote</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::JIS_YEN, KeyCode::BACKQUOTE</autogen>
+    </item>
+    <item>
+      <name>Backspace to Option</name>
+      <identifier>private.backspace_to_option</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::PC_BS, KeyCode::OPTION_L</autogen>
+    </item>
+    <item>
+      <name>Space to Control</name>
+      <identifier>private.space_to_ctrl</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::CONTROL_L</autogen>
+    </item>
+    <item>
+      <name>F13 to Volume Down</name>
+      <identifier>private.f13_to_volume_down</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::F13, KeyCode::VK_CONSUMERKEY_VOLUME_DOWN</autogen>
+    </item>
+    <item>
+      <name>F14 to Volume Down</name>
+      <identifier>private.f14_to_volume_up</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::F14, KeyCode::VK_CONSUMERKEY_VOLUME_UP</autogen>
+    </item>
+    <item>
+      <name>F15 to Volume Mute</name>
+      <identifier>private.f15_to_volume_mute</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::F15, KeyCode::VK_CONSUMERKEY_VOLUME_MUTE</autogen>
+    </item>
+    <item>
+      <name>Underscore to Minus</name>
+      <identifier>private.underscore_to_minus</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::JIS_UNDERSCORE, KeyCode::MINUS</autogen>
+    </item>
+    <item>
+      <name>Application to Esc</name>
+      <identifier>private.application_to_esc</identifier>
+      <device_only>DeviceVendor::PERSONAL_MEDIA, DeviceProduct::uTRON_KB</device_only>
+      <autogen>__KeyToKey__ KeyCode::PC_APPLICATION, KeyCode::ESCAPE</autogen>
+    </item>
+  </item>
+</root>
